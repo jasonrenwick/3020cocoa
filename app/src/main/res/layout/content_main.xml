@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="serif"
-        android:text="Main Menu"
+        android:text="Menu"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="23sp"
@@ -77,8 +77,8 @@
         android:text="About"
         android:textColor="@android:color/black"
         android:textSize="22sp"
-        tools:layout_editor_absoluteY="295dp"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        tools:layout_editor_absoluteY="295dp" />
 
 </android.support.constraint.ConstraintLayout>
