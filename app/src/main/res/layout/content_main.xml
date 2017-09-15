@@ -9,23 +9,28 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="jr_uwi.a3020cocoa2.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_main"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-smallcaps"
         android:text="Cocoa Research in Motion"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="40dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/textView"
+        android:layout_width="368dp"
         android:layout_height="wrap_content"
         android:fontFamily="serif"
         android:text="Menu"
@@ -33,14 +38,16 @@
         android:textColor="@android:color/black"
         android:textSize="23sp"
         android:textStyle="bold"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="116dp" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/button2"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:background="@android:color/holo_green_light"
         android:fontFamily="sans-serif-condensed"
         android:paddingLeft="20dp"
@@ -48,13 +55,15 @@
         android:text="Data Collection"
         android:textColor="@android:color/black"
         android:textSize="22sp"
-        tools:layout_editor_absoluteY="175dp"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/button"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         android:background="@android:color/holo_green_light"
         android:fontFamily="sans-serif-condensed"
         android:paddingLeft="20dp"
@@ -62,14 +71,16 @@
         android:text="Database Settings"
         android:textColor="@android:color/black"
         android:textSize="22sp"
-        tools:layout_editor_absoluteY="235dp"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:id="@+id/button" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/button3"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         android:background="@android:color/holo_green_light"
         android:fontFamily="sans-serif-condensed"
         android:paddingLeft="20dp"
@@ -79,6 +90,7 @@
         android:textSize="22sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="295dp" />
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.0" />
 
 </android.support.constraint.ConstraintLayout>
