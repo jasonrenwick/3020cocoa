@@ -6,4 +6,5 @@
     <string name="menu_item_1">Data Collection</string>
     <string name="menu_item_2">Database Settings</string>
     <string name="menu_item_3">About</string>
+    <string name="logo_description">Cocoa Research Center Logo</string>
 </resources>
