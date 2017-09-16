@@ -7,4 +7,5 @@
     <string name="menu_item_2">Database Settings</string>
     <string name="menu_item_3">About</string>
     <string name="logo_description">Cocoa Research Center Logo</string>
+    <string name="bg_description">Background image of cocoa</string>
 </resources>
