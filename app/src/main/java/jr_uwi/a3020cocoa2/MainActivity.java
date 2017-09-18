@@ -17,7 +17,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         }
 
-
+    public void menubuttonclick(View view) {
+        if (view.getId() == R.id.button_data_collection) {
+            // button1 action
+        } else if (view.getId() == R.id.button_database_settings) {
+            //button2 action
+        } else if (view.getId() == R.id.button_about){
+            //button3 action
+        }
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
