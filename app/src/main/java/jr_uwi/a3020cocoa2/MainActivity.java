@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
-import android.view.MenuItem;
+import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,8 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void menubuttonclick(View view) {
         if (view.getId() == R.id.button_data_collection) {
-            // button1 action
-        } else if (view.getId() == R.id.button_database_settings) {
+            startActivity(new Intent(MainActivity.this, DataCollection.class));
+            }
+         else if (view.getId() == R.id.button_database_settings) {
             //button2 action
         } else if (view.getId() == R.id.button_about){
             //button3 action
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    @Override
+/*    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
@@ -45,6 +46,6 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
-        return super.onOptionsItemSelected(item);
+        return super.onOptionsItemSelected(item);*/
     }
-}
+
