@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="island_prompt">Choose an Island</string>
+
+    <string-array name="island_list">
+        <item>Trinidad</item>
+        <item>Tobago</item>
+    </string-array>
+</resources>
