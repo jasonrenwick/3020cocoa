@@ -19,10 +19,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name="DataCollection"
             android:label="@string/app_name">
         </activity>
+
+        <activity
+            android:name="DatabaseSettings"
+            android:label="@string/app_name">
+        </activity>
+
     </application>
 
 </manifest>

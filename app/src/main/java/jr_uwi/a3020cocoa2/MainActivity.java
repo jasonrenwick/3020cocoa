@@ -17,12 +17,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         }
 
-    public void menubuttonclick(View view) {
+    public void menubuttonclick(View view) { //Button press selector
         if (view.getId() == R.id.button_data_collection) {
-            startActivity(new Intent(MainActivity.this, DataCollection.class));
+            startActivity(new Intent(MainActivity.this, DataCollection.class)); // IF the Data collection button is pressed
             }
          else if (view.getId() == R.id.button_database_settings) {
-            //button2 action
+            startActivity(new Intent(MainActivity.this, DatabaseSettings.class)); // If the Database Settings Button is pressed
         } else if (view.getId() == R.id.button_about){
             //button3 action
         }
