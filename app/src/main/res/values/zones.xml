@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="zone_prompt">Choose an Island</string>
+    <string name="zone_prompt">Choose an Zone</string>
 
     <string-array name="zone_list">
         <item>NE</item>

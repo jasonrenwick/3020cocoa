@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="person_prompt">Select a farmer</string>
+
+    <string-array name="person_list">
+        <item>Leonardo DiCaprio</item>
+        <item>Will Smith</item>
+    </string-array>
+</resources>
