@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="zone_prompt">Choose an Island</string>
+
+    <string-array name="zone_list">
+        <item>NE</item>
+        <item>NW</item>
+        <item>Cen</item>
+        <item>Tob</item>
+    </string-array>
+</resources>
