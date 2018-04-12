@@ -28,7 +28,15 @@
         android:id="@+id/imageView"
         app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
+
+    <WebView
+        android:id="@+id/simpleWebView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp"
+        android:scrollbars="none" />
+
+<!--    <TextView
         android:id="@+id/textView"
         android:layout_width="368dp"
         android:layout_height="wrap_content"
@@ -137,7 +145,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.18" />
+        app:layout_constraintVertical_bias="0.18" />-->
 
 
 </android.support.constraint.ConstraintLayout>
